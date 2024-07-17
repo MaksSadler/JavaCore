@@ -1,4 +1,4 @@
-package homework;
+package homework.task1;
 
 import java.util.Arrays;
 
@@ -46,6 +46,6 @@ public class Task1 {
         System.out.println(Arrays.toString(arr));
         System.out.println("Количество четных эелеметов в массиве: " + countEvens(arr));
         System.out.println("Разница максимального и минимального значения массива: " + diffEvens(arr));
-        System.out.println(checkEvens(arr));
+        System.out.println("Есть ли в переданном массиве два соседних элемента, с нулевым значением? " + checkEvens(arr));
     }
 }
